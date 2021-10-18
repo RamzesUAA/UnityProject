@@ -9,6 +9,7 @@ public class RotateChar : MonoBehaviour
     public GameObject ammo;
     public Transform shotDir;
 
+    private bool isReload = false;
     private float timeShot;
     public float startTime;
 
@@ -78,8 +79,9 @@ public class RotateChar : MonoBehaviour
         }
         ammoCount.text = currentAmmo + " / " + fullammo;
 
-        if (currentAmmo < 1)
+        if (currentAmmo < 1 && isReload == false)
         {
+            isReload = true;
             reloadtx.text = " RELOAD "; 
             Invoke("Reload", 4f);
             
@@ -90,5 +92,6 @@ public class RotateChar : MonoBehaviour
     {
        reloadtx.text = "  "; 
        currentAmmo = fullammo;
+       isReload = false;
     }
 }
