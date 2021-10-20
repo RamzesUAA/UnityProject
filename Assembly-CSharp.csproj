@@ -56,6 +56,7 @@
      <Compile Include="Assets\maine\Shorspeed.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\maine\Box.cs" />
      <Compile Include="Assets\maine\RotateChar.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\maine\mov.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Assetsi\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -82,8 +84,9 @@
      <Compile Include="Assets\maine\PlayerController.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Assetsi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\maine\Box.cs" />
-     <Compile Include="Assets\maine\mov.cs" />
+     <Compile Include="Assets\maine\eshgb.cs" />
+     <Compile Include="Assets\maine\upgrade stvol.cs" />
+     <Compile Include="Assets\vileturon.cs" />
      <None Include="Assets\Assetsi\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Assetsi\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Assetsi\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

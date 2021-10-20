@@ -100,6 +100,8 @@ MonoBehaviour:
   destroyTime: 0.8
   damage: 2
   effects: {fileID: 8151048691399102187, guid: 117c10a8fd7076f4596903b07722f95d, type: 3}
+  effects2: {fileID: 8151048691399102187, guid: aae50953c48e8ea468e254a3f55153ca, type: 3}
+  boxi: {fileID: 8532631026984902180, guid: a2c405baee59872499c859a274c0fef4, type: 3}
 --- !u!61 &1658922367029541317
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -29,21 +29,6 @@ public class RotateChar : MonoBehaviour
     bool m_Play;
     bool m_ToggleChange;
 
-    void OnGUI()
-    {
-        if (timeShot <= 0)
-        {
-
-        
-            if (Event.current.Equals(Event.KeyboardEvent(KeyCode.Space.ToString())) && currentAmmo > 0)
-            {
-                Debug.Log("Space key is pressed.");
-                Instantiate(ammo, shotDir.position, transform.rotation);
-                timeShot = startTime;
-                currentAmmo = currentAmmo - 1;
-            }
-        }
-    }
 
     void Start()
     {
@@ -57,7 +42,6 @@ public class RotateChar : MonoBehaviour
     {
 
 
-        Debug.Log(currentAmmo);
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
